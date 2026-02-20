@@ -3,7 +3,7 @@
 Summary:	Bioconductor tools to support tcltk widgets
 Name:		R-%{packname}
 Version:	1.40.0
-Release:	2
+Release:	3
 License:	LGPL v2+
 Group:		X11/Applications
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
