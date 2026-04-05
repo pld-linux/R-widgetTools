@@ -1,14 +1,15 @@
 %define		packname	widgetTools
 
+%undefine	_debugsource_packages
 Summary:	Bioconductor tools to support tcltk widgets
 Name:		R-%{packname}
-Version:	1.40.0
-Release:	3
+Version:	1.88.0
+Release:	1
 License:	LGPL v2+
 Group:		X11/Applications
-Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	bf2c5ccdc89b904f430ee2dc2c1b29b1
-URL:		http://bioconductor.org/packages/release/bioc/html/widgetTools.html
+Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+# Source0-md5:	93b5df792dd32f0f138024e839773543
+URL:		https://bioconductor.org/packages/release/bioc/html/widgetTools.html
 BuildRequires:	R
 BuildRequires:	tcl-devel
 BuildRequires:	texlive-latex
